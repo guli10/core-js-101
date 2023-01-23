@@ -52,7 +52,6 @@ function getStringLength(value) {
 function getStringFromTemplate(firstName, lastName) {
   return `Hello, ${firstName} ${lastName}!`;
 }
-console.log(getStringFromTemplate('John', 'Doe'));
 
 /**
  * Extracts a name from template string 'Hello, First_Name Last_Name!'.

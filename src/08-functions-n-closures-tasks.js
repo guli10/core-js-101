@@ -77,20 +77,7 @@ function getPolynom() {
  *   ...
  *   memoizer() => the same random number  (next run, returns the previous cached result)
  */
-function memoize(func) {
-  const memory = new Map();
-  return function (arg) {
-    if (memory.has(arg)) {
-      console.log('using memory');
-      return memory.get(arg);
-    }
-    {
-      const result = func(arg);
-      memory.set(arg, result);
-      return result;
-    }
-  };
-}
+function memoize(/* func */) {}
 
 /**
  * Returns the function trying to call the passed function and if it throws,

@@ -232,7 +232,9 @@ function reverseString(str) {
  *   87354 => 45378
  *   34143 => 34143
  */
-function reverseInteger(/* num */) {}
+function reverseInteger(/* num */) {
+  throw new Error('Not implemented');
+}
 
 /**
  * Validates the CCN (credit card number) and return true if CCN is valid
